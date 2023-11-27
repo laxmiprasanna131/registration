@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables file
+.env
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Ignore your own package-lock.json
+package-lock.json
+
+# Ignore files created by the build process
+/dist
+/build
+
+# Ignore files created by your editor
+*.swp
+*.swo
+*.swn
+
+# Ignore minimist-generated files
+.minimist_history
